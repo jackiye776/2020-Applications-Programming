@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" 
+    fx:controller="controller.AddStudentController"
+    alignment="center" spacing="10"
+    styleClass="root">
+    
+    <HBox styleClass="header" alignment="center">
+        <Label styleClass="heading" text="Add new student"/>
+    </HBox>
+    
+    <HBox styleClass="content" alignment="center" spacing="10">
+        <GridPane hgap="10" vgap="10">
+            <Label text="Student number:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <TextField fx:id="stuNumberTf" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+            <Label text="Student name:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <TextField fx:id="stuNameTf" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+            <Label text="Attendance:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+            <HBox GridPane.columnIndex="1" GridPane.rowIndex="2" spacing="10">
+                <fx:define>
+                    <ToggleGroup fx:id="attendanceTg"/>
+                </fx:define>
+                <RadioButton text="Full Time" userData="ft" toggleGroup="$attendanceTg"/>
+                <RadioButton text="Part Time" userData="pt" toggleGroup="$attendanceTg"/>
+            </HBox>
+            <Label text="Scholarship:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+            <CheckBox fx:id="scholarshipCb" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+            <HBox alignment="center" GridPane.columnIndex="0" GridPane.rowIndex="4" GridPane.columnSpan="2">
+                <Text fx:id="errorText" text=""/>
+            </HBox>
+        </GridPane>
+    </HBox>
+    
+    <HBox styleClass="footer" alignment="center" spacing="10">
+        <Button text="Cancel" onAction="#handleCancel"/>
+        <Button fx:id="addBtn" text="Add" disable="true" onAction="#handleAdd"/>
+    </HBox>
+    
+    <stylesheets><URL value="@style.css"/></stylesheets>
+    
+</VBox>

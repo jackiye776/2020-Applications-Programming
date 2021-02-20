@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Dealer
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=Dealer()
+comment3.params=
+comment3.target=void\ use()
+comment4.params=
+comment4.target=void\ shuffle()
+comment5.params=
+comment5.target=void\ deal()
+comment6.params=
+comment6.target=void\ help()
+comment7.params=
+comment7.target=char\ readChoice()
+numComments=8

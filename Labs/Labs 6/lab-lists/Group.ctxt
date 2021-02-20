@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Group
+comment1.params=name\ capacity\ price
+comment1.target=Group(java.lang.String,\ int,\ double)
+comment2.params=name
+comment2.target=boolean\ hasName(java.lang.String)
+comment3.params=
+comment3.target=double\ income()
+comment4.params=
+comment4.target=void\ sell()
+comment5.params=
+comment5.target=int\ readNumber()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=
+comment7.target=int\ left()
+comment8.params=money
+comment8.target=java.lang.String\ formatted(double)
+numComments=9

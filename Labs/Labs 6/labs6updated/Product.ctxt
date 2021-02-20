@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Product
+comment0.text=\r\n\ Each\ product\ has\ a\ name,\ stock\ and\ price.\r\n\r\n\ You\ can\ sell\ and\ restock\ a\ product.\r\n
+comment1.params=name\ stock\ price
+comment1.target=Product(java.lang.String,\ int,\ double)
+comment10.params=amount
+comment10.target=java.lang.String\ formatted(double)
+comment2.params=
+comment2.target=int\ readNumber()
+comment3.params=
+comment3.target=java.lang.String\ readProduct()
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment5.params=n
+comment5.target=double\ sell(int)
+comment5.text=\ \r\n\ This\ pseudo-procedure\ sells\ "n"\ amount\ of\ stock.\r\n\ The\ stock\ should\ decrease\ by\ "n".\r\n\r\n\ This\ method\ also\ returns\ the\ money\ earned\ from\ the\ sale.\r\n\r\n\ This\ is\ a\ rare\ occasion\ where\ a\ procedure\ returns\ something.\r\n
+comment6.params=n
+comment6.target=boolean\ has(int)
+comment7.params=n
+comment7.target=void\ restock(int)
+comment7.text=\r\n\ Add\ "n"\ amount\ to\ this\ product's\ stock.\r\n
+comment8.params=
+comment8.target=int\ viewStock()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+comment9.text=\r\n\ Return\ a\ string\ in\ the\ form\:\r\n\r\n\ [stock]\ [name]\ at\ $[price]\r\n\r\n\ e.g.\ "200\ Sticky\ tape\ at\ $2.99"\r\n\r\n\ DO\ NOT\ hard\ code\ the\ data\ in\ this\ string\r\n\ or\ you\ will\ be\ penalised\ for\ a\ spoof.\r\n
+numComments=11

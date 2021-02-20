@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CashRegister
+comment0.text=\r\n\ The\ cash\ register\ stores\ cash.\r\n\r\n\ You\ can\ add\ cash\ to\ the\ cash\ register.\r\n
+comment1.params=cash
+comment1.target=CashRegister(int)
+comment2.params=money
+comment2.target=double\ add(double)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Return\ a\ string\ in\ the\ form\:\r\n\r\n\ Cash\ register\:\ $[cash]\r\n\r\n\ e.g.\ "Cash\ register\:\ $29.90"\r\n\r\n\ If\ there\ is\ no\ cash,\ instead\ return\:\r\n\r\n\ "Cash\ register\:\ empty"\r\n
+comment4.params=value
+comment4.target=java.lang.String\ formatted(double)
+numComments=5

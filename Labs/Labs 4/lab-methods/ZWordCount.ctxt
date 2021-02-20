@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ZWordCount
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=sentences
+comment2.target=int\ zWords(java.lang.String[])
+comment3.params=sentence
+comment3.target=int\ zWords(java.lang.String)
+comment4.params=word
+comment4.target=boolean\ containsZ(java.lang.String)
+numComments=5

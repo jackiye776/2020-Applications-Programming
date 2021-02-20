@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Stadium
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment10.params=
+comment10.target=double\ income()
+comment11.params=
+comment11.target=void\ help()
+comment12.params=money
+comment12.target=java.lang.String\ formatted(double)
+comment2.params=
+comment2.target=Stadium()
+comment3.params=
+comment3.target=void\ use()
+comment4.params=
+comment4.target=char\ readChoice()
+comment5.params=
+comment5.target=void\ sell()
+comment6.params=
+comment6.target=java.lang.String\ readGroup()
+comment7.params=name
+comment7.target=Group\ group(java.lang.String)
+comment8.params=
+comment8.target=void\ viewGroups()
+comment9.params=
+comment9.target=void\ viewIncome()
+numComments=13
